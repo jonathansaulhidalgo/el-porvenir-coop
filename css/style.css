@@ -1,0 +1,52 @@
+/*reseteo de estilos predeterminados de los navegadores*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.link-secondary{
+    color:#545454;
+    font-weight: bold;
+}
+.link-secondary:hover{
+    color: #737373;
+}
+h1, h2, h3, h4, h5, div{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    background-color: #ffffff;
+}
+.nav-link{
+    font-family: 'Open Sans', sans-serif;
+    color: #737373;
+}
+.active{
+    color: #545454;
+}
+.seccion__destacada{
+    background-image: url("../img/primer-plano-diversas-personas-uniendo-sus-manos.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #545454;
+    background-blend-mode:exclusion;
+    height: 60vh;
+}
+.btn-secondary{
+    background-color: #545454;
+    font-style: 'Roboto', sans-serif;
+}
+.footer{
+    background-color: #545454;
+}
+.nav-footer{
+    color:#ffffff
+}
+.nav-footer:hover{
+    color: #737373;
+}
+.nav-redes ul li{
+    display: inline-block
+}
